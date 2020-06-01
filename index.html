@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">.
+    <meta name="description" content="My first webpage, with image">
+    <meta name="keywords" content="a website">
+    <meta name="author" content="Ethar Banafa">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>A webpage</title>
+    </head>
+    <body>
+        <h1>Are you gonna end up watching a movie today?</h1>
+        <p>Type your age and what day it is!!</p>
+    <p id="demo"></p>
+    <p id="ss"></p>
+    Enter age: <input type="text" id="demo" onclick="myFunction()">
+    Enter day: <input type="text" id="ss" onclick="myFunction()">
+<button id="btn" onclick="myFuction()" id="demo">Click me</button>
+<script>
+function myFunction() {
+    var day="Monday"
+         var age="15"
+if ((day=="Monday" || day=="Tuesday" || day="wednesday" || day="Thursday" || day="Friday") || age=>1 && age<17)) {
+                 document.getElementById("demo").innerHTML = "It's not weekend!!";
+            } 
+            else ((day=="Monday" || day=="Tuesday" || day="Wensday" || day="Thursday" || day="Friday") || age=>18 && age<100)) {
+               document.getElementById("demo").innerHTML =("Get back to work!!");
+            } 
+            else if ((day=="Saturday" || day=="Sunday") || age=>18 && age<100)) {
+               document.getElementById("ss").innerHTML =("It weekend!! Time to relax!!");
+            } else if ((day=="Saturday" || day=="Sunday") || age=>1 && age<17)) {
+               document.getElementById("ss").innerHTML =("It weekend!! Time to relax!!");
+</script>
+  </body>
+</html>
