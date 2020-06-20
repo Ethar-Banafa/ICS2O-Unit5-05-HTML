@@ -22,16 +22,16 @@ function myFunction() {
     var day="Monday";
       age= document.getElementById("demo").value;
      day= document.getElementById("ss").value;
-     age= +age;
-if ((day=="Monday" || day=="Tuesday" || day="Wednesday" || day="Thursday" || day="Friday") || (age=>1 && age<17)) {
-           alert("It's not the weekend yet");
-           } else if((day=="Monday" || day=="Tuesday" || day="Wensday" || day="Thursday" || day="Friday") || (age=>18 && age<100)) {
+      age= +age;
+if ((day=="Monday" || day=="Tuesday" || day=="Wednesday" || day=="Thursday" || day=="Friday") || (age>=1 && age<=17)) {
+           alert("Time for school");
+           } else if((day=="Monday" || day=="Tuesday" || day=="Wednesday" || day=="Thursday" || day=="Friday") || (age>=18)) {
               alert("Get back to work!!");
             } 
-            else if((day=="Saturday" || day=="Sunday") || (age=>18 && age<100)) {
+            else if((day=="Saturday" || day=="Sunday") || (age>=18 && age<=18)) {
               alert("It weekend!! Time to relax!!");
-            } else if((day=="Saturday" || day=="Sunday") || (age=>1 && age<17)) {
-               alert("It weekend!! Time to relax!!");
+            } 
+}
 </script>
   </body>
 </html>
