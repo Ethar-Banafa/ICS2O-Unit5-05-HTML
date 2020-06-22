@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head>
+  <head>
     <meta charset="utf-8">.
     <meta name="description" content="My first webpage, with image">
     <meta name="keywords" content="a website">
@@ -9,29 +9,12 @@
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
     <title>A webpage</title>
-    </head>
-    <body>
-        <h1>Are you gonna end up watching a movie today?</h1>
-        <p>Type your age and what day it is!!</p>
+  </head>
+  <body>
+    <h1>Are you gonna end up watching a movie today?</h1>
+    <p>Type your age and what day it is!!</p>
     Enter age: <input type="text" id="demo">
     Enter day: <input type="text" id="ss">
-<button id="btn" onclick="myFunction()">Click me</button>
-<script>
-function myFunction() {
-   var age=25;
-    var day="Monday";
-      age= document.getElementById("demo").value;
-     day= document.getElementById("ss").value;
-      age= +age;
-if ((day=="Monday" || day=="Tuesday" || day=="Wednesday" || day=="Thursday" || day=="Friday") || (age>=1 && age<=17)) {
-           alert("Time for school");
-           } else if((day=="Monday" || day=="Tuesday" || day=="Wednesday" || day=="Thursday" || day=="Friday") || (age>=18)) {
-              alert("Get back to work!!");
-            } 
-            else if((day=="Saturday" || day=="Sunday") || (age>=18 && age<=18)) {
-              alert("It weekend!! Time to relax!!");
-            } 
-}
-</script>
+  <button id="btn" onclick="myFunction()">Click me</button>
   </body>
 </html>
